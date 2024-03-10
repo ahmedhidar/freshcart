@@ -52,7 +52,7 @@ export default function Payment() {
           token : localStorage.getItem("tkn")
         },
         params : {
-          url:"http://localhost:3000"},
+          url:"https://ahmedhidar.github.io/freshcart"},
       })
       if(data.status == "success"){
         window.open(data.session.url)
